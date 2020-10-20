@@ -160,3 +160,40 @@ cat /etc/bandit_pass/bandit15 | openssl s_client -connect localhost:30001 -ign_e
 ```
 
 cluFn7wTiGryunymYOu4RcffSxQluehd
+
+### [Level 16](https://overthewire.org/wargames/bandit/bandit17.html)
+
+```sh
+nmap -p 31000-32000 localhost
+openssl s_client -connect localhost:31790
+vim id_rsa.key
+chmod 600 id_rsa.key
+ssh -i id_rsa.key bandit17@localhost
+cat /etc/bandit_pass/bandit17
+```
+
+xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+
+### [Level 17](https://overthewire.org/wargames/bandit/bandit18.html)
+
+```sh
+diff passwords.old passwords.new
+```
+
+kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+### [Level 18](https://overthewire.org/wargames/bandit/bandit19.html)
+
+```sh
+ssh -T bandit18@bandit.labs.overthewire.org -p 2220
+```
+
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+### [Level 19](https://overthewire.org/wargames/bandit/bandit20.html)
+
+```sh
+./bandit20-do cat /etc/bandit_pass/bandit20
+```
+
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
