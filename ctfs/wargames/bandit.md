@@ -259,3 +259,35 @@ cat /etc/bandit_pass/bandit26
 ```
 
 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+
+### [Level 26](https://overthewire.org/wargames/bandit/bandit27.html)
+
+```sh
+./bandit27-do cat /etc/bandit_pass/bandit27
+```
+
+3ba3118a22e93127a4ed485be72ef5ea
+
+### [Level 27](https://overthewire.org/wargames/bandit/bandit28.html)
+
+```sh
+mkdir /tmp/madscientist
+cd /tmp/madscientist
+git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+cat README.md
+```
+
+0ef186ac70e04ea33b4c1853d2526fa2
+
+### [Level 28](https://overthewire.org/wargames/bandit/bandit29.html)
+
+```sh
+mkdir /tmp/madscientist
+cd /tmp/madscientist
+git clone ssh://bandit28-git@localhost/home/bandit28-git/repo
+git log -2
+git checkout c086d11a00c0648d095d04c089786efef5e01264
+cat README.md
+```
+
+bbc96594b4e001778eee9975372716b2
