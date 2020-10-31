@@ -291,3 +291,53 @@ cat README.md
 ```
 
 bbc96594b4e001778eee9975372716b2
+
+### [Level 29](https://overthewire.org/wargames/bandit/bandit30.html)
+
+```sh
+mkdir /tmp/madscientist
+cd /tmp/madscientist
+git clone ssh://bandit29-git@localhost/home/bandit29-git/repo
+git checkout --track origin/dev
+cat README.md
+```
+
+5b90576bedb2cc04c86a9e924ce42faf
+
+### [Level 30](https://overthewire.org/wargames/bandit/bandit31.html)
+
+```sh
+mkdir /tmp/madscientist
+cd /tmp/madscientist
+git clone ssh://bandit30-git@localhost/home/bandit30-git/repo
+cat .git/packed-refs
+git tag
+git show tags/secret
+```
+
+47e603bb428404d265f59c42920d81e5
+
+### [Level 31](https://overthewire.org/wargames/bandit/bandit32.html)
+
+```sh
+mkdir /tmp/madscientist
+cd /tmp/madscientist
+git clone ssh://bandit30-git@localhost/home/bandit30-git/repo
+cat README.md
+echo "Can I come in?" >> key.txt
+git add -f key.txt
+git commit -m "add(key): file."
+git push
+```
+
+56a9bf19c63d650ce78e6ec0354ee45e
+
+### [Level 32](https://overthewire.org/wargames/bandit/bandit33.html)
+
+```sh
+ls -al
+$0
+cat /etc/bandit_pass/bandit33
+```
+
+c9c3199ddf4121b10cf581a98d51caee
